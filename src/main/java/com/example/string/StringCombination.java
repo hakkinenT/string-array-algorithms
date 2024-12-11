@@ -2,7 +2,7 @@ package com.example.string;
 
 public class StringCombination {
     public static void main(String[] args) {
-        generateCombinations("gato", "rato", 0);
+        generateCombinations("gato", "", 0);
     }
 
     public static void generateCombinations(String str, String current, int index) {
